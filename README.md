@@ -1,44 +1,26 @@
-# Pretty Chat React/Typescript
+# Chat-app-react-typescript-master
 
-This project is a pretty full-stack chat app built with React and Typesctipt.
+React + TypeScript chat UI exercise built with Ant Design — Andela learning project.
 
-To learn how this project works, watch the following YouTube tutorial.
+## The problem
 
-## Setup
+You are learning React with TypeScript and component libraries. A chat interface forces state management, lists, and API calls in one small app.
 
-Go to [chatengine.io](https://chatengine.io) and create your own project. There you will get a Project ID and Private Key which are needed for user signup and authentication.
+## What it does
 
-### `.env.local`
+Pretty chat UI (`pretty-chat-react-typescript`) with Ant Design components, axios for requests, and TypeScript throughout.
 
-Create a `.env.local` file at the top-level of your project, and replace the UUIDs with your own Project ID and Private Key from [chatengine.io](https://chatengine.io).
+## Install
 
+```bash
+git clone https://github.com/irachrist1/Chat-app-react-typescript-master.git && cd Chat-app-react-typescript-master
+npm install && npm start
 ```
-REACT_APP_PROJECT_ID=12341234-1234-1234-1234-123412341234
-REACT_APP_PROJECT_KEY=abcdabcd-abcd-abcd-abcd-abcdabcdabcd
-```
 
-This will link your new React App to the right Chat Engine project.
+## How it works
 
-### `npm install`
+- **Create React App + TypeScript.** Strict typing on components and API responses from day one.
+- **Ant Design 4.** Pre-built chat-friendly UI primitives — focus on wiring, not CSS from scratch.
+- **Axios HTTP layer.** Message send/receive through REST — standard pattern for chat prototypes.
 
-Build out your node modules by running `npm install`. Then you cn start the app.
-
-### `npm run start`
-
-This will start the app. By default it will run on [localhost:3000](http://localhost:3000/)
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Andela learning project · [Christian Tonny](https://github.com/irachrist1)
